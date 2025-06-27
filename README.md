@@ -34,9 +34,10 @@ I came up with this idea to create a QR code generator because QR codes are extr
 Download from [python.org](https://www.python.org/downloads/) and ensure "Add Python to PATH" is selected.
 
 **Verify installation:**
+```bash
 python --version
+```
 
-text
 
 ---
 
