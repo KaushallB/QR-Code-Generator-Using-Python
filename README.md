@@ -19,7 +19,7 @@ I came up with this idea to create a QR code generator because QR codes are extr
 
 ---
 
-## 🚀 How to Setup and Run
+##  How to Setup and Run
 
 ### 1. Install Python
 
@@ -41,23 +41,23 @@ text
 ---
 
 ### 2. Install Required Packages
+```bash
 pip install qrcode Pillow
+```
 
-text
-If you encounter a "pip not found" error, use:
+# If you encounter a "pip not found" error, use:
+```bash
 python -m pip install qrcode
 python -m pip install Pillow
-
-text
-
----
+```
 
 ### 3. Clone or Download the Repository
 
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+```bash
+git clone https://github.com/KaushallB/QR-Code-Generator-Using-Python
+cd QR-Code-Generator-Using-Python
+```
 
-text
 Or download the ZIP and extract it.
 
 ---
@@ -66,7 +66,6 @@ Or download the ZIP and extract it.
 
 python qrgenerator.py
 
-text
 
 ---
 
