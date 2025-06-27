@@ -1,93 +1,88 @@
-I came up with this idea to create a QR code generator because QR codes are extremely useful in everyday life, whether for sharing website links, Wi-Fi credentials, contact information, or plain text. My goal was to design a tool that is both practical and easy to use, allowing anyone to generate custom QR codes offline and keep them organized for quick access.
+# QR-Code-Generator-Using-Python
 
-QR-Code-Generator-Using-Python
-This project enables users to generate and organize QR code images for URLs, plain text, email addresses, Wi-Fi credentials, and vCard contacts. Generated QR code images are saved in organized folders on the user's Desktop for convenient access.
+I came up with this idea to create a QR code generator because QR codes are extremely useful in everyday life whether for sharing website links, Wi-Fi credentials, contact information, or plain text. My goal was to design a tool that is both practical and easy to use, allowing anyone to generate custom QR codes offline and keep them organized for quick access.
 
-Features
-Multiple QR Code Types: Supports generation of QR codes for URLs, plain text, email addresses (mailto), Wi-Fi credentials, and vCard contact information.
+---
 
-Customizable Appearance: Users can select QR code color, background color, box size, and border size.
+##  Features
 
-Automatic Organization: Generated QR codes are sorted into subfolders by type on your Desktop.
+- Generate QR codes for:
+  - URLs
+  - Plain text
+  - Email addresses (mailto)
+  - Wi-Fi credentials
+  - Virtual Card contact information
+- Customize QR code color, background color, box size, and border size
+- All QR codes are automatically sorted into subfolders by type on your Desktop
+- Works entirely offline—no internet connection required
+- Interactive, user-friendly prompts
 
-Offline Operation: The tool works entirely offline; no internet connection is required for QR code generation.
+---
 
-User-Friendly: Interactive prompts and automatic file organization make it easy for anyone to use.
+## 🚀 How to Setup and Run
 
+### 1. Install Python
 
-Prerequisites
-1. Python Installation
-Recommended Method (Windows):
+**Recommended (Windows):**
 
-Install Python via the Microsoft Store:
+- Open the Microsoft Store
+- Search for **Python 3.11** (or latest)
+- Click **Get** to install
+- After installation, you should be able to run `python` from Command Prompt
 
-Open the Microsoft Store application.
+**Alternative:**  
+Download from [python.org](https://www.python.org/downloads/) and ensure "Add Python to PATH" is selected.
 
-Search for "Python 3.11" (or the latest available version).
-
-Click "Get" to install.
-
-After installation, you should be able to run python from the Command Prompt.
-
-Alternative Method:
-
-Download and install Python from the official website:
-
-bash
-https://www.python.org/downloads/
-During installation, ensure that the "Add Python to PATH" option is selected.
-
-Verification:
-
-After installation, open Command Prompt and run:
-
-bash
+**Verify installation:**
 python --version
-You should see the installed Python version displayed.
 
-2. Required Python Packages
-This project requires the following third-party Python packages:
+text
 
-qrcode
+---
 
-Pillow (for image handling)
+### 2. Install Required Packages
+pip install qrcode Pillow
 
-To install these packages, open Command Prompt and execute:
-
-bash
-pip install qrcode
-pip install Pillow
-If you encounter a "pip not found" error, use the following commands:
-
-bash
+text
+If you encounter a "pip not found" error, use:
 python -m pip install qrcode
 python -m pip install Pillow
-Usage Instructions
-1. Download or Clone the Repository
-Download the repository as a ZIP file and extract it, or clone it using Git:
 
-bash
+text
+
+---
+
+### 3. Clone or Download the Repository
+
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-2. Navigate to the Project Directory
-Open Command Prompt and change the directory to where the script is located:
+cd YOUR-REPO-NAME
 
-bash
-cd path/to/your/project
-3. Run the Script
-Execute the following command:
+text
+Or download the ZIP and extract it.
 
-bash
+---
+
+### 4. Run the Script
+
 python qrgenerator.py
-4. Follow the On-Screen Prompts
-Select the desired QR code type.
 
-Enter the required information.
+text
 
-Customize the QR code appearance as desired, or press Enter to use default settings.
+---
 
-The script will generate and save the QR code image in a folder named QR_Codes_Offline_Images on your Desktop, organized by QR code type.
+### 5. Follow the Prompts
 
-5. Accessing Generated QR Codes
-The script will attempt to open the generated image automatically.
+- Select the QR code type (URL, Text, Email, Wi-Fi, vCard)
+- Enter the required information
+- Customize the QR code appearance or press Enter to use defaults
+- The QR code image will be saved in a folder named `QR_Codes_Offline_Images` on your Desktop, organized by type
 
-You can also manually browse to the QR_Codes_Offline_Images folder on your Desktop to view and manage your QR codes.
+---
+
+### 6. Access Your QR Codes
+
+- The script will attempt to open the generated image automatically
+- You can also browse to the `QR_Codes_Offline_Images` folder on your Desktop to view and manage your QR codes
+
+---
+
