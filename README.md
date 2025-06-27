@@ -46,7 +46,7 @@ python --version
 pip install qrcode Pillow
 ```
 
-# If you encounter a "pip not found" error, use:
+### If you encounter a "pip not found" error, use:
 ```bash
 python -m pip install qrcode
 python -m pip install Pillow
