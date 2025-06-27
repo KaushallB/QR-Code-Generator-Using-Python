@@ -43,7 +43,8 @@ python --version
 ```bash
 brew install python
 ```
-(If you do not have Homebrew, install it from [brew.sh](https://brew.sh/), or download Python directly from [python.org](https://www.python.org/downloads/).)
+
+-(If you do not have Homebrew, install it from [brew.sh](https://brew.sh/), or download Python directly from [python.org](https://www.python.org/downloads/).)
 ---
 
 #### **Linux (Ubuntu/Debian)**
