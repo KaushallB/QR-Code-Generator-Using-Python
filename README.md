@@ -38,8 +38,31 @@ Download from [python.org](https://www.python.org/downloads/) and ensure "Add Py
 python --version
 ```
 
+#### **macOS**
+- Open Terminal and run:
+```bash
+brew install python
+```
+(If you do not have Homebrew, install it from [brew.sh](https://brew.sh/), or download Python directly from [python.org](https://www.python.org/downloads/).)
+
+#### **Linux (Ubuntu/Debian)**
+- Open Terminal and run:
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+```
+
+- For other distributions, use your package manager or download from [python.org](https://www.python.org/downloads/).
+
+**Verify installation (all platforms):**
+```bash
+python --version
+or
+python3 --version
+```
 
 ---
+
 
 ### 2. Install Required Packages
 ```bash
