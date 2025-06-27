@@ -14,7 +14,7 @@ I came up with this idea to create a QR code generator because QR codes are extr
   - Virtual Card contact information
 - Customize QR code color, background color, box size, and border size
 - All QR codes are automatically sorted into subfolders by type on your Desktop
-- Works entirely offline—no internet connection required
+- Works entirely offline, No internet connection required
 - Interactive, user-friendly prompts
 
 ---
